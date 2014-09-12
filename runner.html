@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bridg interview test runner</title>
+    <link rel="stylesheet" type="text/css" href="qunit-runner-light.css" />
+
+    <!-- QUNIT REFRENCE AND RUNNER MUST BE FIRST -->
+    <script type="text/javascript" src="http://code.jquery.com/qunit/qunit-git.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/sinon.js/1.7.3/sinon-min.js"></script>
+    <script type="text/javascript" src="qunit-runner.js"></script>
+    <!-- END -->
+
+    <!-- Add data-reload="true" to any scripts that should be reloaded automatically -->
+    <!-- CODE UNDER TEST MUST BE PLACED HERE -->
+    <script type="text/javascript" src="problems/palindrome.js" data-reload="true"></script>
+    <script type="text/javascript" src="problems/dimensional-sort.js" data-reload="true"></script>
+    <script type="text/javascript" src="problems/console.js" data-reload="true"></script>
+    <script type="text/javascript" src="problems/timeout.js" data-reload="true"></script>
+    <!-- END -->
+
+    <!-- QUNIT TESTS MUST BE PLACED HERE -->
+    <script type="text/javascript" src="tests/palindrome.spec.js" data-reload="true"></script>
+    <script type="text/javascript" src="tests/dimensional-sort.spec.js" data-reload="true"></script>
+    <script type="text/javascript" src="tests/console.spec.js" data-reload="true"></script>
+    <script type="text/javascript" src="tests/timeout.spec.js" data-reload="true"></script>
+    <!-- END -->
+
+</head>
+<body></body>
+</html>
