@@ -1,27 +1,28 @@
 {
-    "name": "Bridg-interview-js",
-    "version": "0.0.1",
-    "description": "Bridg Interview Problems",
-    "main": "index.js",
-    "directories": {
-        "test": "tests"
-    },
-    "dependencies": {
-        "express": "^4.9.0"
-    },
-    "devDependencies": {},
-    "scripts": {
-        "start": "node index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/sameer-bridg/Bridg-interview-js.git"
-    },
-    "author": "Sameer Sontakey",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/sameer-bridg/Bridg-interview-js/issues"
-    },
-    "homepage": "https://github.com/sameer-bridg/Bridg-interview-js"
+  "name": "Bridg-interview-js",
+  "version": "0.0.1",
+  "description": "Bridg Interview Problems",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "express": "^4.9.0",
+    "request": "^2.42.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sameer-bridg/Bridg-interview-js.git"
+  },
+  "author": "Sameer Sontakey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sameer-bridg/Bridg-interview-js/issues"
+  },
+  "homepage": "https://github.com/sameer-bridg/Bridg-interview-js"
 }
