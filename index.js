@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-var http = require('http');
 var fs = require('fs');
 
 app.use(express.static(__dirname + '/'));
