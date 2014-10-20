@@ -1,0 +1,242 @@
+1. What does this code do?
+
+(function() {
+   var a = b = 5;
+})();
+
+console.log(b);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Native Methods: console.log('hello'.repeatify(3)); should output "hellohellohello"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. What is the result of this code and why?
+
+
+function test() {
+   console.log(a);
+   console.log(foo());
+
+   var a = 1;
+   function foo() {
+      return 2;
+   }
+}
+
+test();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. What is the result of this code and why?
+
+
+var fullname = ‘Ron’;
+var obj = {
+   fullname: ‘Sameer’,
+   prop: {
+      fullname: ‘Jared’,
+      getFullname: function() {
+         return this.fullname;
+      }
+   }
+};
+
+console.log(obj.prop.getFullname());
+
+var test = obj.prop.getFullname;
+
+console.log(test());
